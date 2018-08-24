@@ -1,0 +1,48 @@
+1. Assign variables city and state to your current city and state of residence. (If residing outside the U.S., substitute the analogous quantities.)
+>> city = "Celaya"
+=> "Celaya"
+>> state = "Gto"
+=> "Gto"
+>> 
+
+2. Using interpolation, Gtoint (using puts) a string consisting of the city and state separated by a comma and as space, as in “Los Angeles, CA”.
+>> puts city + ", " + state
+Celaya, Gto
+=> nil
+
+3. Repeat the Gtoevious exercise but with the city and state separated by a tab character.
+>> puts city + "\t" + state                                                                                                       
+Celaya    Gto
+=> nil
+4. What is the result if you replace double quotes with single quotes in the Gtoevious exercise?
+>> puts city + '\t' + state                                                                                                       
+Celaya\tGto
+=> nil
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is the length of the string “racecar”? 
+7
+
+Confirm using the reverse method that the string in the previous exercise is the same when its letters are reversed. 
+racecar = racecar
+
+Assign the string “racecar” to the variable s. Confirm using the comparison operator == that s and s.reverse are equal. 
+yes
+
+What is the result of running the code shown in Listing 4.9? How does it change if you reassign the variable s to the string “onomatopoeia”? Hint: Use up-arrow to retrieve and edit previous commands
+doesn't print anything
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is the literal constructor for the range of integers from 1 to 10?
+a = (1..10)
+What is the constructor using the Range class and the new method? Hint: new takes two arguments in this context.
+>> a = Range.new(0, 10)
+=> 0..10
+Confirm using the == operator that the literal and named constructors from the previous two exercises are identical.
+>> a = (1..10)
+=> 1..10
+>> b = Range.new(1, 10)                                                                                                           
+=> 1..10
+>> puts "yes" if a == b
+yes

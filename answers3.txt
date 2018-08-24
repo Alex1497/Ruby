@@ -1,0 +1,15 @@
+1. Generate a controller called Foo with actions bar and baz.
+ rails generate controller Foo bar baz
+ 
+2. By applying the techniques described in Box 3.1, destroy the Foo controller and its associated actions.
+  rails destroy controller Foo bar baz
+  
+-------------------------------------------------------------------------------------------------------------------
+
+1. You may have noticed some repetition in the Static Pages controller test (Listing 3.24). In particular, 
+the base title, “Ruby on Rails Tutorial Sample App”, is the same for every title test. Using 
+the special function setup, which is automatically run before every test, verify that the tests in Listing 
+3.30 are still green. (Listing 3.30 uses an instance variable, seen briefly in Section 2.2.2 and covered 
+further in Section 4.4.5, combined with string interpolation, which is covered further in Section 4.2.2.) 
+
+all tests are  still green
