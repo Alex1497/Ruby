@@ -15,6 +15,7 @@ gem 'bcrypt','~> 3.1.12'
 
 gem 'bootstrap', '~> 4.1.3'
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass-rails', '~> 3.1.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
